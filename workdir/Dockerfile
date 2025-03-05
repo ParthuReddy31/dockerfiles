@@ -2,7 +2,7 @@ FROM almalinux:9
 
 RUN mkdir /tmp/work-dir-daemo
 
-RUN cd /tmp/work-dir-daemo
+WORKDIR /tmp/work-dir-daemo
 
 run pwd
 
